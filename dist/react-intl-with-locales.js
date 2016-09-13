@@ -2747,6 +2747,8 @@
         });
     };
 
+    var $$components$html$message$$ReactDOMServer = require("react-dom/server");
+
     var $$components$html$message$$FormattedHTMLMessage = $$react$$default.createClass({
         displayName: 'FormattedHTMLMessage',
         mixins     : [$$mixin$$default],
@@ -2776,7 +2778,7 @@
                 if (typeof value === 'string') {
                     value = $$$escape$$default(value);
                 } else if ($$react$$default.isValidElement(value)) {
-                    value = $$react$$default.renderToStaticMarkup(value);
+                    value = $$components$html$message$$ReactDOMServer.renderToStaticMarkup(value);
                 }
 
                 values[name] = value;
