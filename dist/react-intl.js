@@ -2747,7 +2747,7 @@
         });
     };
 
-    var $$components$html$message$$ReactDOMServer = require("react-dom/server");
+    var $$components$html$message$$ReactDOMServer = require('react-dom/server');
 
     var $$components$html$message$$FormattedHTMLMessage = $$react$$default.createClass({
         displayName: 'FormattedHTMLMessage',
